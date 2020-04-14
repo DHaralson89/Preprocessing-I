@@ -54,15 +54,33 @@ table {
 }
 
 html, body {
+	display: flex;
+	flex-direction: column;
+	background-image: url(img/nuclear.png);
+	background-attachment: fixed;
 
 	.links{
-		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
 		align-items: center;
 		text-align: center;
 		font-size: 1.5rem;
 	}
+
+	.top {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.info {
+		flex-direction: column;
+	}
+	.content {
+		justify-content: left;
+	}	
+	.burns {
+		flex-direction: column;
+		justify-content: right;
+		width: 50%;
+	}
 	  
 }
-
