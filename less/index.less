@@ -57,65 +57,49 @@ html, body {
 	display: flex;
 	margin: 0 auto;
 	max-width: 100%;
-	flex-direction: column;
-	// background-image: url(img/"nuclear.png");
-	// background-attachment: fixed;
-
+	flex-direction: row;
+	background-color: orange;
+}
 
 	.links{
-		flex-direction: row;
 		justify-content: space-between;
-		align-items: center;
 		text-align: center;
 		font-size: 1.5rem;
-	}
+	}	
 
-	h1{
-		font-size: 200px;
-	}
-	.top {
-		flex-direction: column;
+	.top{
 		justify-content: center;
+		width: 100%;
 
-		.name {
-			margin: 20%;
-			font-size: 200px;
+		.name{
+			font-size: 3rem;
+			margin-top: 20%;
+			text-align: left;
 		}
 
-		.burns1 {
+		.content{
+			font-size: 2rem;
+		}
+
+		.info{
+			width: 50%;
+		}
+
+		.burns {
 			flex-direction: column;
-			justify-content: center;
-			flex-wrap: wrap;
-			align-content: center;
-			margin-left: 200px;
+			justify-content: right;
+			width: 50%;
 			height: 20%;
-			padding: 1%;
-			
+			padding: 7%;
+			margin-left: 45%;
+			border-bottom: 1px solid red;
 		}
-
-		.content {
-			justify-content: left;
-			box-sizing: 80%;
-			width: 20%;
-			
-			.info {
-				display: flex;
-				flex-direction: column;
-				flex-wrap: wrap;
-			}
-			.burns {
-				flex-direction: column;
-				justify-content: right;
-				width: 50%;
-				height: 20%;
-				padding: 1%;
-			}
+		.excellent{
+			width: 120px;
+			margin-left: 15%;
+			margin-top: 5%;
 		}
-	
-
 	}
-	
 		
 	
-	  
-}
+			

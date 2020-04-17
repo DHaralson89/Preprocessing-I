@@ -130,12 +130,45 @@ table {
 * {
   box-sizing: border-box;
 }
-html .links,
-body .links {
+html,
+body {
   display: flex;
+  margin: 0 auto;
+  max-width: 100%;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  background-color: orange;
+}
+.links {
+  justify-content: space-between;
   text-align: center;
   font-size: 1.5rem;
+}
+.top {
+  justify-content: center;
+  width: 100%;
+}
+.top .name {
+  font-size: 3rem;
+  margin-top: 20%;
+  text-align: left;
+}
+.top .content {
+  font-size: 2rem;
+}
+.top .info {
+  width: 50%;
+}
+.top .burns {
+  flex-direction: column;
+  justify-content: right;
+  width: 50%;
+  height: 20%;
+  padding: 7%;
+  margin-left: 45%;
+  border-bottom: 1px solid red;
+}
+.top .excellent {
+  width: 120px;
+  margin-left: 15%;
+  margin-top: 5%;
 }
